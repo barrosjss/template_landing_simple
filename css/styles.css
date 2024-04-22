@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #face59;
+  --primary-color: #A61923;
   --secondary-color: #f8f8f8;
   --text-dark: #111827;
   --text-light: #6b7280;
   --white: #ffffff;
   --max-width: 1200px;
-  --header-font: "Playfair Display", serif;
+  --header-font: 'Montserrat', serif;
 }
 
 * {
@@ -41,7 +41,7 @@
   border: none;
   font-size: 1rem;
   white-space: nowrap;
-  color: var(--text-dark);
+  color: var(--white);
   background-color: var(--primary-color);
   border-radius: 2px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -107,6 +107,10 @@ nav {
   font-weight: 600;
   font-family: var(--header-font);
   color: var(--text-dark);
+}
+
+.logo {
+  max-height: 50px;
 }
 
 .nav__links {
